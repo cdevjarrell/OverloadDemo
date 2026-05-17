@@ -9,7 +9,9 @@
 public class OverloadDemo {
 
     public static void main(String[] args) {
-        // Tests will be added here
+        multiUse(17);
+        multiUse(10, 15);
+        multiUse(3, 8, 6);
     }
 
     public static void multiUse(int n) {
