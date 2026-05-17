@@ -11,4 +11,10 @@ public class OverloadDemo {
     public static void main(String[] args) {
         // Tests will be added here
     }
+
+    public static void multiUse(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
 }
