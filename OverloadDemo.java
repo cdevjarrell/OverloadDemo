@@ -22,4 +22,11 @@ public class OverloadDemo {
         double average = (a + b) / 2.0;
         System.out.println("Average: " + average);
     }
+
+    public static void multiUse(int a, int b, int c) {
+        int max = a;
+        if (b > max) max = b;
+        if (c > max) max = c;
+        System.out.println("Maximum: " + max);
+    }
 }
