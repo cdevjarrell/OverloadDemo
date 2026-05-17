@@ -17,4 +17,9 @@ public class OverloadDemo {
             System.out.println(i);
         }
     }
+
+    public static void multiUse(int a, int b) {
+        double average = (a + b) / 2.0;
+        System.out.println("Average: " + average);
+    }
 }
